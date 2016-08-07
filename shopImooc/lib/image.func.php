@@ -2,6 +2,7 @@
 // 通过GD库创建画布，用来做验证码
 require_once ("string.func.php");
 
+
 function verifyImage($type = 1,$length = 4,$pixel = 0, $line = 0,$sess_name = "verify")
 {
 
@@ -48,5 +49,6 @@ function verifyImage($type = 1,$length = 4,$pixel = 0, $line = 0,$sess_name = "v
     imagegif($image);
     imagedestroy($image);
 }
+//verifyImage(1,4,0,0);
 
-//verifyImage(2,4,10,5);
+

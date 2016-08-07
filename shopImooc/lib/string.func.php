@@ -11,7 +11,7 @@ function buildRandomString($type=1,$length=4)
     }
     
     if ($length > strlen($chars)) {
-        exit("×Ö·û³¤¶È²»¹»");
+        exit("ï¿½Ö·ï¿½ï¿½ï¿½ï¿½È²ï¿½ï¿½ï¿½");
     }
     
     $chars = str_shuffle($chars);
